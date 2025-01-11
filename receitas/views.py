@@ -14,7 +14,7 @@ def home(request):
 
 def contato(request):
     # return HttpResponse
-    return HttpResponse("<h1>CONTATO views</h1>")
+    return render(request, 'receitas/contato.html')
 
 
 def sobre(request):
