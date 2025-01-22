@@ -6,14 +6,10 @@
 
     <main class="main-content-container">
         <div class="main-content main-content-list container">
-            <div class="receita receita-list-item">
-                <div class="receita-cover">
-                    <img src="https://placehold.co/1280x720/269fe6/png" alt="Temporário">
-                </div>
-                <h1>danone</h1>
-            </div>
+            {% include "receitas/partials/receita.html" %}
         </div>
     </main>
-</body>
 
+    {% include "receitas/partials/footer.html" %}
+</body>
 </html>
